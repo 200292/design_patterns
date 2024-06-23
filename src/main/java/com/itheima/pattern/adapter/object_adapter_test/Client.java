@@ -6,5 +6,6 @@ public class Client {
         Adapter adapter = new Adapter(new TFCardImpl());
         String msg = computer.readSD(adapter);
         System.out.println(msg);
+        System.out.println("hello");
     }
 }
